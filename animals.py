@@ -4,221 +4,221 @@ from datetime import date
 # ---------------------- LANDLUBBERS ----------------------
 
 
-class Llama:
+# class Llama:
 
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = False
-        self.walpiper = True
-
-
-miss_fuzz = Llama("Miss Fuzz", "domestic llama")
+#     def __init__(self, name, species):
+#         # Establish the properties of each animal
+#         # with a default value
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = False
+#         self.walpiper = True
 
 
-class Donkey:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = False
-        self.walpiper = True
+# miss_fuzz = Llama("Miss Fuzz", "domestic llama")
 
 
-eeyore = Donkey("Eeyore", "blue donkey")
+# class Donkey:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = False
+#         self.walpiper = True
 
 
-class Goat:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = False
-        self.walpiper = True
+# eeyore = Donkey("Eeyore", "blue donkey")
 
 
-lats = Goat("Lats", "shorthair mountain goat")
+# class Goat:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = False
+#         self.walpiper = True
 
 
-class Cow:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = False
-        self.walpiper = True
+# lats = Goat("Lats", "shorthair mountain goat")
 
 
-betsy = Cow("Betsy", "cow")
+# class Cow:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = False
+#         self.walpiper = True
 
 
-class Horse:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = False
-        self.walpiper = True
+# betsy = Cow("Betsy", "cow")
 
 
-legolas = Horse("Legolas", "black horse")
+# class Horse:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = False
+#         self.walpiper = True
+
+
+# legolas = Horse("Legolas", "black horse")
 
 
 # ---------------------- CREEPY CRAWLIES ----------------------
 
 
-class Coral_Snake:
+# class Coral_Snake:
 
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = True
-        self.walpiper = False
-
-
-king = Coral_Snake("King", "coral snake")
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = True
+#         self.walpiper = False
 
 
-class Garden_Snake:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = True
-        self.walpiper = False
+# king = Coral_Snake("King", "coral snake")
 
 
-kevin = Garden_Snake("Kevin", "garden snake")
+# class Garden_Snake:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = True
+#         self.walpiper = False
 
 
-class Copperhead:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = True
-        self.walpiper = False
+# kevin = Garden_Snake("Kevin", "garden snake")
 
 
-jewel = Copperhead("Jewel", "pit viper")
+# class Copperhead:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = True
+#         self.walpiper = False
 
 
-class Cobra:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = True
-        self.walpiper = False
+# jewel = Copperhead("Jewel", "pit viper")
 
 
-nikki = Cobra("Nikki", "king cobra")
+# class Cobra:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = True
+#         self.walpiper = False
 
 
-class Diamondback:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = True
-        self.walpiper = False
+# nikki = Cobra("Nikki", "king cobra")
 
 
-flora = Diamondback("Flora", "western diamondback rattlesnake")
+# class Diamondback:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = False
+#         self.slithering = True
+#         self.walpiper = False
+
+
+# flora = Diamondback("Flora", "western diamondback rattlesnake")
 
 
 # ---------------------- SEA BISCUITS ----------------------
 
-class Goldfish:
+# class Goldfish:
 
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
-        self.walpiper = False
-
-
-sam = Goldfish("Sam", "freshwater goldfish")
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = True
+#         self.slithering = False
+#         self.walpiper = False
 
 
-class Mallard:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
-        self.walpiper = False
+# sam = Goldfish("Sam", "freshwater goldfish")
 
 
-lucas = Mallard("Lucas", "duck")
+# class Mallard:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = True
+#         self.slithering = False
+#         self.walpiper = False
 
 
-class Swan:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
-        self.walpiper = False
+# lucas = Mallard("Lucas", "duck")
 
 
-gloria = Swan("Gloria", "swan")
+# class Swan:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = True
+#         self.slithering = False
+#         self.walpiper = False
 
 
-class Goose:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
-        self.walpiper = False
+# gloria = Swan("Gloria", "swan")
 
 
-sally = Goose("Sally", "goose")
+# class Goose:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = True
+#         self.slithering = False
+#         self.walpiper = False
 
 
-class Catfish:
-
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
-        self.walpiper = False
+# sally = Goose("Sally", "goose")
 
 
-piper = Catfish("Piper", "alabama catfish")
+# class Catfish:
+
+#     def __init__(self, name, species):
+#         self.name = ""
+#         self.species = ""
+#         self.date_added = date.today()
+#         self.swimming = True
+#         self.slithering = False
+#         self.walpiper = False
+
+
+# piper = Catfish("Piper", "alabama catfish")
 
 
 # ---------------------- LETS MAKE SOME ANIMALS ----------------------
@@ -229,27 +229,27 @@ piper = Catfish("Piper", "alabama catfish")
 # miss_fuzz = Llama()
 # miss_fuzz.name = "Miss Fuzz"
 # miss_fuzz.species = "domestic llama"
-print(miss_fuzz)
+# print(miss_fuzz)
 
 # eeyore = Donkey()
 # eeyore.name = "Eeyore"
 # eeyore.species = "blue donkey"
-print(eeyore)
+# print(eeyore)
 
 # lats = Goat()
 # lats.name = "Lats"
 # lats.species = "shorthair mountain goat"
-print(lats)
+# print(lats)
 
 # betsy = Cow()
 # betsy.name = "Betsy"
 # betsy.species = "cow"
-print(betsy)
+# print(betsy)
 
 # legolas = Horse()
 # legolas.name = "Legolas"
 # legolas.species = "black horse"
-print(legolas)
+# print(legolas)
 
 # ---------------------- SLITHERERS ----------------------
 
