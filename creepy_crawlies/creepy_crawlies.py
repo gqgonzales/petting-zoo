@@ -8,8 +8,8 @@ class Coral_Snake:
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
+        self.swimming = False
+        self.slithering = True
         self.walking = False
         self.food = food
 
@@ -25,8 +25,8 @@ class Garden_Snake:
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
+        self.swimming = False
+        self.slithering = True
         self.walking = False
         self.food = food
 
@@ -42,8 +42,8 @@ class Copperhead:
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
+        self.swimming = False
+        self.slithering = True
         self.walking = False
         self.food = food
 
@@ -59,8 +59,8 @@ class Cobra:
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
+        self.swimming = False
+        self.slithering = True
         self.walking = False
         self.food = food
 
@@ -76,8 +76,8 @@ class Diamondback:
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
+        self.swimming = False
+        self.slithering = True
         self.walking = False
         self.food = food
 
@@ -91,5 +91,5 @@ class Diamondback:
 # king = Coral_Snake("King", "coral snake", "field mice")
 # kevin = Garden_Snake("Kevin", "garden snake", "little lizards")
 # jewel = Copperhead("Jewel", "pit viper", "whatever she wants")
-# nikki = Cobra("Nikki", "king cobra, "field mice"")
+# nikki = Cobra("Nikki", "king cobra", "field mice")
 # flora = Diamondback("Flora", "western diamondback rattlesnake", "sour patch kids")
