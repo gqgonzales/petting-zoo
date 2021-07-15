@@ -51,6 +51,10 @@ nikki = Cobra("Nikki", "king cobra", "field mice")
 flora = Diamondback("Flora", "western diamondback rattlesnake", "sour patch kids")
 
 slither_inn.add_animal(king)
+slither_inn.add_animal(kevin)
+
+print(slither_inn.last_critter_added)
+
 
 for animal in slither_inn.animals:
     print(
