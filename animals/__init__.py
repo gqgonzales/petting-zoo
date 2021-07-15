@@ -1,20 +1,20 @@
 # WALKING
-from .walking.cow import Cow
-from .walking.donkey import Donkey
-from .walking.goat import Goat
-from .walking.horse import Horse
-from .walking.llama import Llama
+from .cow import Cow
+from .donkey import Donkey
+from .goat import Goat
+from .horse import Horse
+from .llama import Llama
 
 # SLITHERING
-from .slithering.coralsnake import CoralSnake
-from .slithering.gardensnake import GardenSnake
-from .slithering.copperhead import Copperhead
-from .slithering.cobra import Cobra
-from .slithering.diamondback import Diamondback
+from .coralsnake import CoralSnake
+from .gardensnake import GardenSnake
+from .copperhead import Copperhead
+from .cobra import Cobra
+from .diamondback import Diamondback
 
 # SWIMMING
-from .swimming.goldfish import Goldfish
-from .swimming.mallard import Mallard
-from .swimming.swan import Swan
-from .swimming.goose import Goose
-from .swimming.catfish import Catfish
+from .goldfish import Goldfish
+from .mallard import Mallard
+from .swan import Swan
+from .goose import Goose
+from .catfish import Catfish

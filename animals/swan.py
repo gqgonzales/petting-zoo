@@ -2,15 +2,15 @@ from animals.animals import Animal
 from datetime import date
 
 
-class Goldfish(Animal):
+class Swan(Animal):
     def __init__(self, name, species, food):
         # Establish the properties of each animal
         # with a default value
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = False
-        self.slithering = True
+        self.swimming = True
+        self.slithering = False
         self.walking = False
         self.food = food
 
