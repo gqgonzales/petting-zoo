@@ -1,20 +1,10 @@
-from animals.animals import Animal
-from datetime import date
+from .animals import Animal
 
 
 class Cow(Animal):
-    def __init__(self, name, species, shift, food):
-        self.name = name
-        self.species = species
-        self.shift = shift
-        self.date_added = date.today()
-        self.swimming = False
-        self.slithering = False
+
+    # Remove redundant properties from Llama's initialization, and set their values via Animal
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)
+        self.shift = shift  # stays on Llama because not all animals have shifts
         self.walking = True
-        self.food = food
-
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-    def feed(self):
-        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
