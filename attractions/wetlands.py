@@ -1,4 +1,4 @@
-from .attractions import Attraction
+from .attraction import Attraction
 
 
 class Wetlands(Attraction):
