@@ -1,9 +1,17 @@
-from .animals import Animal
+from .animal import Animal
+from movements import Walking, Swimming
 
 
-class Mallard(Animal):
-
-    # Remove redundant properties from Llama's initialization, and set their values via Animal
+class Mallard(Animal, Walking, Swimming):
     def __init__(self, name, species, food, chip_num):
-        super().__init__(name, species, food, chip_num)
-        self.swimming = True
+        # No more super() when initializing multiple base classes
+        Animal.__init__(self, name, species, food, chip_num)
+        Swimming.__init__(self)
+        Walking.__init__(self)
+        # no more self.swimming = True
+
+    def honk(self):
+        print("The Mallard honks, but not like a goose would")
+
+    def __str__(self):
+        return f"{self.name} the Mallard"
