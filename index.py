@@ -23,7 +23,7 @@ from attractions import SnakePit, PettingZoo, Wetlands
 
 # ---------------------- VARMINT VILLAGE ----------------------
 
-varmint_village = PettingZoo("Varmint Village")
+varmint_village = PettingZoo("Varmint Village", "cute and fuzzy critters to cuddle")
 
 miss_fuzz = Llama("Miss Fuzz", "domestic llama", "morning", "Llama Chow", 5000)
 eeyore = Donkey("Eeyore", "blue donkey", "afternoon", "cantaloupe", 5001)
@@ -32,17 +32,17 @@ lats = Goat("Lats", "shorthair mountain goat", "afternoon", "tin cans", 5003)
 legolas = Horse("Legolas", "black horse", "midday", "honeydew", 5004)
 
 varmint_village.add_animal(betsy)
-varmint_village.add_animal(lats)
+# varmint_village.add_animal(lats)
 
-for animal in varmint_village.animals:
-    print(
-        f"You can find {animal.name} the {animal.species} in {varmint_village.attraction_name}"
-    )
+# for animal in varmint_village.animals:
+#     print(
+#         f"You can find {animal.name} the {animal.species} in {varmint_village.attraction_name}"
+#     )
 
 
 # ---------------------- SLITHER INN ----------------------
 
-slither_inn = SnakePit("Slither Inn")
+slither_inn = SnakePit("Slither Inn", "creepy crawlies that love to lounge")
 
 king = CoralSnake("King", "coral snake", "field mice", 5005)
 kevin = GardenSnake("Kevin", "garden snake", "little lizards", 5006)
@@ -53,17 +53,19 @@ flora = Diamondback("Flora", "western diamondback rattlesnake", "sour patch kids
 slither_inn.add_animal(king)
 slither_inn.add_animal(kevin)
 
-print(slither_inn.last_critter_added)
+# print(
+#     f"{slither_inn.last_critter_added.name} was the last critter added to the {slither_inn.attraction_name}."
+# )
 
 
-for animal in slither_inn.animals:
-    print(
-        f"You can find {animal.name} the {animal.species} at {slither_inn.attraction_name}"
-    )
+# for animal in slither_inn.animals:
+#     print(
+#         f"You can find {animal.name} the {animal.species} at {slither_inn.attraction_name}"
+#     )
 
 # ---------------------- CRITTER COVE ----------------------
 
-critter_cove = Wetlands("Critter Cove")
+critter_cove = Wetlands("Critter Cove", "big birds and lil swimmers galore")
 
 sam = Goldfish("Sam", "freshwater goldfish", "fish flakes", 5010)
 lucas = Mallard("Lucas", "duck", "white bread", 5011)
@@ -75,6 +77,8 @@ critter_cove.add_animal(sam)
 critter_cove.add_animal(lucas)
 critter_cove.add_animal(gloria)
 critter_cove.add_animal(sally)
+critter_cove.add_animal(piper)
+# sally.walk()
 
 
 # Critter Cove is where you'll find big birds and lil swimmers unite, like
@@ -82,12 +86,15 @@ critter_cove.add_animal(sally)
 #    - Wilbur the pot-bellied pig
 #    - Linda the domesticated llama
 
-print(
-    f"{critter_cove.attraction_name} is where you'll find {critter_cove.description}, like"
-)
-for animal in critter_cove.animals:
-    print(f"– {animal.name}")
+# print(
+#     f"{critter_cove.attraction_name} is where you'll find {critter_cove.description}, like"
+# )
+# for animal in critter_cove.animals:
+#     print(f"– {animal.name}")
 
-gloria.feed()
-lats.feed()
-sam.feed()
+# gloria.feed()
+# lats.feed()
+# sam.feed()
+
+tester = Catfish("Tester", "alabama catfish", "tacos", 5050)
+varmint_village.add_animal(tester)

@@ -3,5 +3,5 @@ class Walking:
         self.walk_speed = 0
         self.legs = 0
 
-    def run(self):
+    def walk(self):
         print("The animal walks")
