@@ -3,19 +3,13 @@ from datetime import date
 
 
 class Goldfish(Animal):
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.swimming = True
-        self.slithering = False
-        self.walking = False
-        self.food = food
 
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
+    # Remove redundant properties from Llama's initialization, and set their values via Animal
+    def __init__(self, name, species, food, chip_num):
+        super().__init__(name, species, food, chip_num)
+        self.swimming = True
 
     def feed(self):
-        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+        print(
+            f'{self.name} is very picky and will ONLY eat {self.food}. The last feed time was on {date.today().strftime("%m/%d/%Y")}.'
+        )
