@@ -1,5 +1,4 @@
-from animals.animals import Animal
-from datetime import date
+from .animals import Animal
 
 
 class Diamondback(Animal):
